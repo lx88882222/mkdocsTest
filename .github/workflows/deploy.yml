@@ -25,6 +25,7 @@ jobs:
 
     - name: Build MkDocs site
       run: mkdocs build
+      working-directory: ./3DConsturctor-Intro
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
